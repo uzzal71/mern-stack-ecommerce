@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get('/users', (req, res) => {
+  res.send('Welcome user page')
+})
+
 app.get('/signup', (req, res) => {
   res.send('Welcome sign page')
 })
