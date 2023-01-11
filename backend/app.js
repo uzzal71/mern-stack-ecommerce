@@ -22,6 +22,10 @@ app.get('/aboutus', (req, res) => {
   res.send('Welcome about us page')
 })
 
+app.get('/carts', (req, res) => {
+  res.send('Welcome cart page')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
