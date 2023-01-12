@@ -22,6 +22,10 @@ app.get('/aboutus', (req, res) => {
   res.send('Welcome about us page')
 })
 
+app.get('/add-to-cart', (req, res) => {
+  res.send('Welcome add to cart route')
+})
+
 app.get('/carts', (req, res) => {
   res.send('Welcome cart page')
 })
