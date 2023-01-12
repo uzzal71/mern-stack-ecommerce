@@ -30,6 +30,10 @@ app.get('/carts', (req, res) => {
   res.send('Welcome cart page')
 })
 
+app.post('/delete-cart-item', (req, res) => {
+  res.send('Welcome add to cart route')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
