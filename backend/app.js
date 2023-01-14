@@ -31,7 +31,7 @@ app.get('/carts', (req, res) => {
 })
 
 app.post('/delete-cart-item', (req, res) => {
-  res.send('Welcome add to cart route')
+  res.send('delete cart item function here')
 })
 
 app.listen(port, () => {
