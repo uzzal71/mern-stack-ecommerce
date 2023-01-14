@@ -27,7 +27,7 @@ app.get('/add-to-cart', (req, res) => {
 })
 
 app.get('/carts', (req, res) => {
-  res.send('Welcome cart page')
+  res.send('Cart listing function here')
 })
 
 app.post('/delete-cart-item', (req, res) => {
