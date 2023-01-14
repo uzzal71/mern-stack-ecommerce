@@ -23,7 +23,7 @@ app.get('/aboutus', (req, res) => {
 })
 
 app.get('/add-to-cart', (req, res) => {
-  res.send('Welcome add to cart route')
+  res.send('Add to cart funcation write here')
 })
 
 app.get('/carts', (req, res) => {
