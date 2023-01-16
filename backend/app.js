@@ -18,8 +18,8 @@ app.get('/login', (req, res) => {
   res.send('Welcome login page')
 })
 
-app.get('/aboutus', (req, res) => {
-  res.send('Welcome about us page')
+app.get('/product/detail', (req, res) => {
+  res.send('Product detail!')
 })
 
 app.get('/add-to-cart', (req, res) => {
@@ -32,6 +32,10 @@ app.get('/carts', (req, res) => {
 
 app.post('/delete-cart-item', (req, res) => {
   res.send('delete cart item function here')
+})
+
+app.get('/aboutus', (req, res) => {
+  res.send('Welcome about us page')
 })
 
 app.listen(port, () => {
